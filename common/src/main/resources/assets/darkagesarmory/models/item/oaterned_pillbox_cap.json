@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "darkagesarmory:item/oaterned_pillbox_cap",
+        "layer1": "darkagesarmory:item/oaterned_pillbox_cap_overlay"
+    }
+}

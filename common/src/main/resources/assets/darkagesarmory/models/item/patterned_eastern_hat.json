@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "darkagesarmory:item/patterned_eastern_hat",
+        "layer1": "darkagesarmory:item/patterned_eastern_hat_overlay"
+    }
+}

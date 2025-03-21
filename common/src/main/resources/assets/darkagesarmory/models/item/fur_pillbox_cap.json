@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "darkagesarmory:item/fur_pillbox_cap",
+        "layer1": "darkagesarmory:item/fur_pillbox_cap_overlay"
+    }
+}

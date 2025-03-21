@@ -1,0 +1,7 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "darkagesarmory:item/eastern_rich_kaftan_boots",
+        "layer1": "darkagesarmory:item/eastern_rich_kaftan_boots_overlay"
+    }
+}

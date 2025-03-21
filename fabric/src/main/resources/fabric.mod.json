@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "darkagesarmory",
+  "version": "1.0",
+  "name": "Epic Knights: Dark Ages",
+  "description": "Adds equipment of the Dark Ages",
+  "authors": [
+    "Magistu", "SuperSus890", "Desperate_bork", "Skydog"
+  ],
+  "contributors": [
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/epic-knights-dark-ages",
+    "sources": "https://github.com/Magistu/Epic-Knights-Dark-Ages",
+    "discord": "https://discord.gg/H9CVcXEmYe"
+  },
+  "license": "MIT",
+  "icon": "assets/darkagesarmory/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.magistuarmory.darkages.fabric.EpicKnightsDarkAgesFabric"
+    ]
+  },
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.20.0",
+    "magistuarmory": ">=8.3"
+  }
+}
