@@ -2,8 +2,10 @@ package com.magistuarmory.darkages.client.render.model;
 
 import com.magistuarmory.darkages.EpicKnightsDarkAges;
 import com.magistuarmory.darkages.client.render.model.armor.*;
+import com.magistuarmory.darkages.client.render.model.decoration.*;
 import com.magistuarmory.api.client.render.model.ModModelsProvider;
 import net.minecraft.client.model.geom.ModelLayerLocation;
+import net.minecraft.client.model.geom.builders.LayerDefinition;
 
 public class AddonModels extends ModModelsProvider
 {
@@ -42,7 +44,25 @@ public class AddonModels extends ModModelsProvider
 	public static final ModelLayerLocation PILLBOX_CAP_LOCATION = INSTANCE.addArmorModel("pillbox_cap", PillboxCapModel::createLayer);
 
 	// Decorations
+	public static final LayerDefinition BIRKA_TUNIC_MODEL = BirkaTunicModel.createLayer();
+	public static final LayerDefinition BOAR_MODEL = BoarModel.createLayer();
+	public static final LayerDefinition COMMON_WALLET_MODEL = CommonWalletModel.createLayer();
+	public static final LayerDefinition EARLY_CLOAK_MODEL = EarlyCloakModel.createLayer();
+	public static final LayerDefinition HEDEBY_BAG_MODEL = HedebyBagModel.createLayer();
+	public static final LayerDefinition MAILLE_AVENTAIL_MODEL = MailleAventailModel.createLayer();
+	public static final LayerDefinition ORKNEY_HOOD_MODEL = OrkneyHoodModel.createLayer();
+	public static final LayerDefinition VALSGARDE_VAMBRACES_MODEL = ValsgardeVambracesModel.createLayer();
+	public static final LayerDefinition WININGAS_MODEL = WiningasModel.createLayer();
 
+	public static final ModelLayerLocation BIRKA_TUNIC_LOCATION = INSTANCE.addDecorationModel("birka_tunic", () -> BIRKA_TUNIC_MODEL);
+	public static final ModelLayerLocation BOAR_LOCATION = INSTANCE.addDecorationModel("boar", () -> BOAR_MODEL);
+	public static final ModelLayerLocation COMMON_WALLET_LOCATION = INSTANCE.addDecorationModel("common_wallet", () -> COMMON_WALLET_MODEL);
+	public static final ModelLayerLocation EARLY_CLOAK_LOCATION = INSTANCE.addDecorationModel("early_cloak", () -> EARLY_CLOAK_MODEL);
+	public static final ModelLayerLocation HEDEBY_BAG_LOCATION = INSTANCE.addDecorationModel("hedeby_bag", () -> HEDEBY_BAG_MODEL);
+	public static final ModelLayerLocation MAILLE_AVENTAIL_LOCATION = INSTANCE.addDecorationModel("maille_aventail", () -> MAILLE_AVENTAIL_MODEL);
+	public static final ModelLayerLocation ORKNEY_HOOD_LOCATION = INSTANCE.addDecorationModel("orkney_hood", () -> ORKNEY_HOOD_MODEL);
+	public static final ModelLayerLocation VALSGARDE_VAMBRACES_LOCATION = INSTANCE.addDecorationModel("valsgarde_vambraces", () -> VALSGARDE_VAMBRACES_MODEL);
+	public static final ModelLayerLocation WININGAS_LOCATION = INSTANCE.addDecorationModel("winingas", () -> WININGAS_MODEL);
 
 
 	public AddonModels(String modId)
