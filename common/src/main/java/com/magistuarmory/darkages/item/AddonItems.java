@@ -4,6 +4,7 @@ import com.magistuarmory.api.item.ModItemsProvider;
 import com.magistuarmory.darkages.EpicKnightsDarkAges;
 import com.magistuarmory.darkages.item.armor.AddonArmorTypes;
 import com.magistuarmory.item.*;
+import com.magistuarmory.item.armor.DyeableMedievalArmorItem;
 import com.magistuarmory.item.armor.MedievalArmorItem;
 import dev.architectury.registry.registries.RegistrySupplier;
 import me.shedaniel.cloth.clothconfig.shadowed.blue.endless.jankson.annotation.Nullable;
@@ -135,6 +136,7 @@ public class AddonItems extends ModItemsProvider
 
 	public static final @Nullable RegistrySupplier<MedievalArmorItem> FUR_PILLBOX_CAP = INSTANCE.addDyeableMedievalArmorItem("fur_pillbox_cap", AddonArmorTypes.FUR_PILLBOX_CAP, ArmorItem.Type.HELMET, new Item.Properties(), 0x764e30);
 
+	public static final @Nullable RegistrySupplier<MedievalArmorItem> WININGAS = INSTANCE.addDyeableMedievalArmorItem("winingas", AddonArmorTypes.WININGAS, ArmorItem.Type.LEGGINGS, new Item.Properties(), 0xFFFFFF);
 
 
 	//Decoration
@@ -146,7 +148,6 @@ public class AddonItems extends ModItemsProvider
 	public static final RegistrySupplier<ArmorDecorationItem> MAILLE_AVENTAIL_DECORATION = INSTANCE.addArmorDecorationItem("maille_aventail_decoration", () -> new ArmorDecorationItem(new ResourceLocation(EpicKnightsDarkAges.ID, "maille_aventail"), new Item.Properties(), ArmorItem.Type.HELMET));
 	public static final RegistrySupplier<DyeableArmorDecorationItem> ORKNEY_HOOD_DECORATION = INSTANCE.addDyeableArmorDecorationItem("orkney_hood_decoration", () -> new DyeableArmorDecorationItem(new ResourceLocation(EpicKnightsDarkAges.ID, "orkney_hood"), new Item.Properties(), ArmorItem.Type.HELMET));
 	public static final RegistrySupplier<ArmorDecorationItem> VALSGARDE_VAMBRACES_DECORATION = INSTANCE.addArmorDecorationItem("valsgarde_vambraces_decoration", () -> new ArmorDecorationItem(new ResourceLocation(EpicKnightsDarkAges.ID, "valsgarde_vambraces"), new Item.Properties(), ArmorItem.Type.CHESTPLATE));
-	public static final RegistrySupplier<ArmorDecorationItem> WININGAS_DECORATION = INSTANCE.addArmorDecorationItem("winingas_decoration", () -> new ArmorDecorationItem(new ResourceLocation(EpicKnightsDarkAges.ID, "winingas"), new Item.Properties(), ArmorItem.Type.BOOTS));
 
 	public AddonItems()
 	{

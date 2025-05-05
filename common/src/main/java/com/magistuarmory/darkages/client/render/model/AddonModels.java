@@ -42,6 +42,7 @@ public class AddonModels extends ModModelsProvider
 	public static final ModelLayerLocation TROSINO_HELMET_LOCATION = INSTANCE.addArmorModel("trosino_helmet", TrosinoHelmetModel::createLayer);
 	public static final ModelLayerLocation EASTERN_HAT_LOCATION = INSTANCE.addArmorModel("eastern_hat", EasternHatModel::createLayer);
 	public static final ModelLayerLocation PILLBOX_CAP_LOCATION = INSTANCE.addArmorModel("pillbox_cap", PillboxCapModel::createLayer);
+	public static final ModelLayerLocation WININGAS_LOCATION = INSTANCE.addArmorModel("winingas", WiningasModel::createLayer);
 
 	// Decorations
 	public static final LayerDefinition BIRKA_TUNIC_MODEL = BirkaTunicModel.createLayer();
@@ -52,7 +53,6 @@ public class AddonModels extends ModModelsProvider
 	public static final LayerDefinition MAILLE_AVENTAIL_MODEL = MailleAventailModel.createLayer();
 	public static final LayerDefinition ORKNEY_HOOD_MODEL = OrkneyHoodModel.createLayer();
 	public static final LayerDefinition VALSGARDE_VAMBRACES_MODEL = ValsgardeVambracesModel.createLayer();
-	public static final LayerDefinition WININGAS_MODEL = WiningasModel.createLayer();
 
 	public static final ModelLayerLocation BIRKA_TUNIC_LOCATION = INSTANCE.addDecorationModel("birka_tunic", () -> BIRKA_TUNIC_MODEL);
 	public static final ModelLayerLocation BOAR_LOCATION = INSTANCE.addDecorationModel("boar", () -> BOAR_MODEL);
@@ -62,7 +62,6 @@ public class AddonModels extends ModModelsProvider
 	public static final ModelLayerLocation MAILLE_AVENTAIL_LOCATION = INSTANCE.addDecorationModel("maille_aventail", () -> MAILLE_AVENTAIL_MODEL);
 	public static final ModelLayerLocation ORKNEY_HOOD_LOCATION = INSTANCE.addDecorationModel("orkney_hood", () -> ORKNEY_HOOD_MODEL);
 	public static final ModelLayerLocation VALSGARDE_VAMBRACES_LOCATION = INSTANCE.addDecorationModel("valsgarde_vambraces", () -> VALSGARDE_VAMBRACES_MODEL);
-	public static final ModelLayerLocation WININGAS_LOCATION = INSTANCE.addDecorationModel("winingas", () -> WININGAS_MODEL);
 
 	public AddonModels(String modId)
 	{
