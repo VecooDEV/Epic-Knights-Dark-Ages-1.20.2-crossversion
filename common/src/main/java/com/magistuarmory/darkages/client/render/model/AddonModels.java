@@ -50,6 +50,7 @@ public class AddonModels extends ModModelsProvider
 	public static final LayerDefinition BOAR_MODEL = BoarModel.createLayer();
 	public static final LayerDefinition COMMON_WALLET_MODEL = CommonWalletModel.createLayer();
 	public static final LayerDefinition CLOAK_MODEL = CloakModel.createLayer();
+	public static final LayerDefinition PILE_WOVEN_CLOAK_MODEL = PileWovenCloakModel.createLayer();
 	public static final LayerDefinition HEDEBY_BAG_MODEL = HedebyBagModel.createLayer();
 	public static final LayerDefinition MAILLE_AVENTAIL_MODEL = MailleAventailModel.createLayer();
 	public static final LayerDefinition ORKNEY_HOOD_MODEL = OrkneyHoodModel.createLayer();
@@ -63,7 +64,7 @@ public class AddonModels extends ModModelsProvider
 	public static final ModelLayerLocation BOAR_LOCATION = INSTANCE.addDecorationModel("boar", () -> BOAR_MODEL);
 	public static final ModelLayerLocation COMMON_WALLET_LOCATION = INSTANCE.addDecorationModel("common_wallet", () -> COMMON_WALLET_MODEL);
 	public static final ModelLayerLocation EARLY_CLOAK_LOCATION = INSTANCE.addDecorationModel("early_cloak", () -> CLOAK_MODEL);
-	public static final ModelLayerLocation PILE_WOVEN_CLOAK_LOCATION = INSTANCE.addDecorationModel("pile_woven_cloak", () -> CLOAK_MODEL);
+	public static final ModelLayerLocation PILE_WOVEN_CLOAK_LOCATION = INSTANCE.addDecorationModel("pile_woven_cloak", () -> PILE_WOVEN_CLOAK_MODEL);
 	public static final ModelLayerLocation HEDEBY_BAG_LOCATION = INSTANCE.addDecorationModel("hedeby_bag", () -> HEDEBY_BAG_MODEL);
 	public static final ModelLayerLocation MAILLE_AVENTAIL_LOCATION = INSTANCE.addDecorationModel("maille_aventail", () -> MAILLE_AVENTAIL_MODEL);
 	public static final ModelLayerLocation ORKNEY_HOOD_LOCATION = INSTANCE.addDecorationModel("orkney_hood", () -> ORKNEY_HOOD_MODEL);
