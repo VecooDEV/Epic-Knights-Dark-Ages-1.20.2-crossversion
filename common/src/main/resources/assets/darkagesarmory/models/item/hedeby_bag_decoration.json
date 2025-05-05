@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "darkagesarmory:item/hedeby_bag_decoration",
+    "layer1": "darkagesarmory:item/hedeby_bag_decoration_overlay"
+  }
+}

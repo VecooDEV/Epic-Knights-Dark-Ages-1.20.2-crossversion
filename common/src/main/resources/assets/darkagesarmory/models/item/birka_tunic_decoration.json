@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "darkagesarmory:item/birka_tunic_decoration",
+    "layer1": "darkagesarmory:item/birka_tunic_decoration_overlay"
+  }
+}

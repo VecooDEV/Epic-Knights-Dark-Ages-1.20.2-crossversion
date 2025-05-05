@@ -1,23 +1,17 @@
 package com.magistuarmory.darkages.item;
 
+import com.magistuarmory.api.item.ModItemsProvider;
 import com.magistuarmory.darkages.EpicKnightsDarkAges;
 import com.magistuarmory.darkages.item.armor.AddonArmorTypes;
-import com.magistuarmory.api.item.ModItemsProvider;
 import com.magistuarmory.item.*;
-import com.magistuarmory.item.armor.DyeableWearableArmorDecorationItem;
 import com.magistuarmory.item.armor.MedievalArmorItem;
-import com.magistuarmory.item.armor.MedievalHorseArmorItem;
 import dev.architectury.registry.registries.RegistrySupplier;
 import me.shedaniel.cloth.clothconfig.shadowed.blue.endless.jankson.annotation.Nullable;
-import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ArmorItem;
-import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.SmithingTemplateItem;
+import net.minecraft.world.item.ShieldItem;
 import net.minecraft.world.level.material.MapColor;
-
-import java.util.List;
 
 public class AddonItems extends ModItemsProvider
 {
@@ -48,27 +42,28 @@ public class AddonItems extends ModItemsProvider
 	public static final @Nullable RegistrySupplier<MedievalWeaponItem> STEEL_VIKING_SWORD = INSTANCE.addMedievalWeaponItem("steel_viking_sword", new Item.Properties(), ModItemTier.STEEL, AddonWeaponTypes.VIKING_SWORD);
 
 
+
 	//Armor
 	public static final @Nullable RegistrySupplier<MedievalArmorItem> BALYK_SOOK_LAMELLAR_CHESTPLATE = INSTANCE.addMedievalArmorItem("balyk_sook_lamellar_chestplate", AddonArmorTypes.BALYK_SOOK_LAMELLAR, ArmorItem.Type.CHESTPLATE, new Item.Properties());
 
 	public static final @Nullable RegistrySupplier<MedievalArmorItem> EASTERN_RICH_KAFTAN = INSTANCE.addDyeableMedievalArmorItem("eastern_rich_kaftan", AddonArmorTypes.EASTERN_RICH_KAFTAN, ArmorItem.Type.CHESTPLATE, new Item.Properties(), 0xFFFFFF);
-	public static final @Nullable RegistrySupplier<MedievalArmorItem> EASTERN_RICH_KAFTAN_BOOTS = INSTANCE.addDyeableMedievalArmorItem("eastern_rich_kaftan_boots", AddonArmorTypes.EASTERN_RICH_KAFTAN, ArmorItem.Type.BOOTS, new Item.Properties(), 0xFFFFFF);
+//	public static final @Nullable RegistrySupplier<MedievalArmorItem> EASTERN_RICH_KAFTAN_BOOTS = INSTANCE.addDyeableMedievalArmorItem("eastern_rich_kaftan_boots", AddonArmorTypes.EASTERN_RICH_KAFTAN, ArmorItem.Type.BOOTS, new Item.Properties(), 0xFFFFFF); # Not texture.
 
-	public static final @Nullable RegistrySupplier<MedievalArmorItem> BIRKA_TUNIC_BOOTS = INSTANCE.addDyeableMedievalArmorItem("birka_tunic_boots", AddonArmorTypes.BIRKA_TUNIC, ArmorItem.Type.BOOTS, new Item.Properties(), 0xFFFFFF);
+//	public static final @Nullable RegistrySupplier<MedievalArmorItem> BIRKA_TUNIC_BOOTS = INSTANCE.addDyeableMedievalArmorItem("birka_tunic_boots", AddonArmorTypes.BIRKA_TUNIC, ArmorItem.Type.BOOTS, new Item.Properties(), 0xFFFFFF); # Not texture.
 
-	public static final @Nullable RegistrySupplier<MedievalArmorItem> LOMBARD_LAMELLAR_CHESTPLATE = INSTANCE.addMedievalArmorItem("lombard_lamellar_chestplate", AddonArmorTypes.LOMBARD_LAMELLAR, ArmorItem.Type.CHESTPLATE, new Item.Properties());
-	public static final @Nullable RegistrySupplier<MedievalArmorItem> LOMBARD_LAMELLAR_BOOTS = INSTANCE.addMedievalArmorItem("lombard_lamellar_boots", AddonArmorTypes.LOMBARD_LAMELLAR, ArmorItem.Type.BOOTS, new Item.Properties());
+//	public static final @Nullable RegistrySupplier<MedievalArmorItem> LOMBARD_LAMELLAR_CHESTPLATE = INSTANCE.addMedievalArmorItem("lombard_lamellar_chestplate", AddonArmorTypes.LOMBARD_LAMELLAR, ArmorItem.Type.CHESTPLATE, new Item.Properties()); # Not texture.
+//	public static final @Nullable RegistrySupplier<MedievalArmorItem> LOMBARD_LAMELLAR_BOOTS = INSTANCE.addMedievalArmorItem("lombard_lamellar_boots", AddonArmorTypes.LOMBARD_LAMELLAR, ArmorItem.Type.BOOTS, new Item.Properties()); # Not texture.
 
 	public static final @Nullable RegistrySupplier<MedievalArmorItem> BYRNIE_CHESTPLATE = INSTANCE.addMedievalArmorItem("byrnie_chestplate", AddonArmorTypes.BYRNIE, ArmorItem.Type.CHESTPLATE, new Item.Properties());
-	public static final @Nullable RegistrySupplier<MedievalArmorItem> BYRNIE_BOOTS = INSTANCE.addMedievalArmorItem("byrnie_boots", AddonArmorTypes.BYRNIE, ArmorItem.Type.BOOTS, new Item.Properties());
+//	public static final @Nullable RegistrySupplier<MedievalArmorItem> BYRNIE_BOOTS = INSTANCE.addMedievalArmorItem("byrnie_boots", AddonArmorTypes.BYRNIE, ArmorItem.Type.BOOTS, new Item.Properties()); # Not texture.
 
-	public static final @Nullable RegistrySupplier<MedievalArmorItem> NORTHERN_GAMBESON = INSTANCE.addMedievalArmorItem("northern_gambeson", AddonArmorTypes.NORTHERN_GAMBESON, ArmorItem.Type.CHESTPLATE, new Item.Properties());
+//	public static final @Nullable RegistrySupplier<MedievalArmorItem> NORTHERN_GAMBESON = INSTANCE.addMedievalArmorItem("northern_gambeson", AddonArmorTypes.NORTHERN_GAMBESON, ArmorItem.Type.CHESTPLATE, new Item.Properties()); # Not texture.
 
 	public static final @Nullable RegistrySupplier<MedievalArmorItem> COMMON_HAUBERK = INSTANCE.addMedievalArmorItem("common_hauberk", AddonArmorTypes.COMMON_HAUBERK, ArmorItem.Type.CHESTPLATE, new Item.Properties());
-	public static final @Nullable RegistrySupplier<MedievalArmorItem> COMMON_HAUBERK_BOOTS = INSTANCE.addMedievalArmorItem("common_hauberk_boots", AddonArmorTypes.COMMON_HAUBERK, ArmorItem.Type.BOOTS, new Item.Properties());
+//	public static final @Nullable RegistrySupplier<MedievalArmorItem> COMMON_HAUBERK_BOOTS = INSTANCE.addMedievalArmorItem("common_hauberk_boots", AddonArmorTypes.COMMON_HAUBERK, ArmorItem.Type.BOOTS, new Item.Properties()); # Not texture.
 
 	public static final @Nullable RegistrySupplier<MedievalArmorItem> RICH_BYRNIE_CHESTPLATE = INSTANCE.addMedievalArmorItem("rich_byrnie_chestplate", AddonArmorTypes.RICH_BYRNIE, ArmorItem.Type.CHESTPLATE, new Item.Properties());
-	public static final @Nullable RegistrySupplier<MedievalArmorItem> RICH_BYRNIE_BOOTS = INSTANCE.addMedievalArmorItem("rich_byrnie_boots", AddonArmorTypes.RICH_BYRNIE, ArmorItem.Type.BOOTS, new Item.Properties());
+//	public static final @Nullable RegistrySupplier<MedievalArmorItem> RICH_BYRNIE_BOOTS = INSTANCE.addMedievalArmorItem("rich_byrnie_boots", AddonArmorTypes.RICH_BYRNIE, ArmorItem.Type.BOOTS, new Item.Properties()); # Not texture.
 
 	public static final @Nullable RegistrySupplier<MedievalArmorItem> VENDEL_GREAVES = INSTANCE.addMedievalArmorItem("vendel_greaves", AddonArmorTypes.VENDEL_GREAVES, ArmorItem.Type.LEGGINGS, new Item.Properties());
 
@@ -143,6 +138,15 @@ public class AddonItems extends ModItemsProvider
 
 
 	//Decoration
+	public static final RegistrySupplier<DyeableArmorDecorationItem> BIRKA_TUNIC_DECORATION = INSTANCE.addDyeableArmorDecorationItem("birka_tunic_decoration", () -> new DyeableArmorDecorationItem(new ResourceLocation(EpicKnightsDarkAges.ID, "birka_tunic"), new Item.Properties(), ArmorItem.Type.CHESTPLATE));
+	public static final RegistrySupplier<ArmorDecorationItem> BOAR_DECORATION = INSTANCE.addArmorDecorationItem("boar_decoration", () -> new ArmorDecorationItem(new ResourceLocation(EpicKnightsDarkAges.ID, "boar"), new Item.Properties(), ArmorItem.Type.HELMET));
+	public static final RegistrySupplier<DyeableArmorDecorationItem> COMMON_WALLET_DECORATION = INSTANCE.addDyeableArmorDecorationItem("common_wallet_decoration", () -> new DyeableArmorDecorationItem(new ResourceLocation(EpicKnightsDarkAges.ID, "common_wallet"), new Item.Properties(), ArmorItem.Type.LEGGINGS, MapColor.COLOR_BROWN.col));
+	public static final RegistrySupplier<DyeableArmorDecorationItem> EARLY_CLOAK_DECORATION = INSTANCE.addDyeableArmorDecorationItem("early_cloak_decoration", () -> new DyeableArmorDecorationItem(new ResourceLocation(EpicKnightsDarkAges.ID, "early_cloak"), new Item.Properties(), ArmorItem.Type.CHESTPLATE));
+	public static final RegistrySupplier<DyeableArmorDecorationItem> HEDEBY_BAG_DECORATION = INSTANCE.addDyeableArmorDecorationItem("hedeby_bag_decoration", () -> new DyeableArmorDecorationItem(new ResourceLocation(EpicKnightsDarkAges.ID, "hedeby_bag"), new Item.Properties(), ArmorItem.Type.LEGGINGS));
+	public static final RegistrySupplier<ArmorDecorationItem> MAILLE_AVENTAIL_DECORATION = INSTANCE.addArmorDecorationItem("maille_aventail_decoration", () -> new ArmorDecorationItem(new ResourceLocation(EpicKnightsDarkAges.ID, "maille_aventail"), new Item.Properties(), ArmorItem.Type.HELMET));
+	public static final RegistrySupplier<DyeableArmorDecorationItem> ORKNEY_HOOD_DECORATION = INSTANCE.addDyeableArmorDecorationItem("orkney_hood_decoration", () -> new DyeableArmorDecorationItem(new ResourceLocation(EpicKnightsDarkAges.ID, "orkney_hood"), new Item.Properties(), ArmorItem.Type.HELMET));
+	public static final RegistrySupplier<ArmorDecorationItem> VALSGARDE_VAMBRACES_DECORATION = INSTANCE.addArmorDecorationItem("valsgarde_vambraces_decoration", () -> new ArmorDecorationItem(new ResourceLocation(EpicKnightsDarkAges.ID, "valsgarde_vambraces"), new Item.Properties(), ArmorItem.Type.CHESTPLATE));
+	public static final RegistrySupplier<ArmorDecorationItem> WININGAS_DECORATION = INSTANCE.addArmorDecorationItem("winingas_decoration", () -> new ArmorDecorationItem(new ResourceLocation(EpicKnightsDarkAges.ID, "winingas"), new Item.Properties(), ArmorItem.Type.BOOTS));
 
 	public AddonItems()
 	{

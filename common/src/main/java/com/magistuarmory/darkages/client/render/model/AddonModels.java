@@ -64,7 +64,6 @@ public class AddonModels extends ModModelsProvider
 	public static final ModelLayerLocation VALSGARDE_VAMBRACES_LOCATION = INSTANCE.addDecorationModel("valsgarde_vambraces", () -> VALSGARDE_VAMBRACES_MODEL);
 	public static final ModelLayerLocation WININGAS_LOCATION = INSTANCE.addDecorationModel("winingas", () -> WININGAS_MODEL);
 
-
 	public AddonModels(String modId)
 	{
 		super(modId);

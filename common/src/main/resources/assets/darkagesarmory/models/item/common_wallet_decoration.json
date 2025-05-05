@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "darkagesarmory:item/common_wallet_decoration",
+    "layer1": "darkagesarmory:item/common_wallet_decoration_overlay"
+  }
+}

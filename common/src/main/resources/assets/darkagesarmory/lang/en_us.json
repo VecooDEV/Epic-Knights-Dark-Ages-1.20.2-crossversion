@@ -69,5 +69,14 @@
     "item.darkagesarmory.eastern_hat": "Eastern Hat",
     "item.darkagesarmory.pillbox_cap": "Pillbox Cap",
     "item.darkagesarmory.oaterned_pillbox_cap": "Oaterned Pillbox Cap",
-    "item.darkagesarmory.fur_pillbox_cap": "Fur Pillbox Cap"
+    "item.darkagesarmory.fur_pillbox_cap": "Fur Pillbox Cap",
+    "item.darkagesarmory.birka_tunic_decoration": "Birka Tunic Decoration",
+    "item.darkagesarmory.boar_decoration": "Boar Decoration",
+    "item.darkagesarmory.common_wallet_decoration": "Common Wallet Decoration",
+    "item.darkagesarmory.early_cloak_decoration": "Early Cloak Decoration",
+    "item.darkagesarmory.hedeby_bag_decoration": "Hedeby Bag Decoration",
+    "item.darkagesarmory.maille_aventail_decoration": "Maille Aventail Decoration",
+    "item.darkagesarmory.orkney_hood_decoration": "Orkney Hood Decoration",
+    "item.darkagesarmory.valsgarde_vambraces_decoration": "Valsgarde Vambraces Decoration",
+    "item.darkagesarmory.winingas_decoration": "Winingas Decoration"
 }
