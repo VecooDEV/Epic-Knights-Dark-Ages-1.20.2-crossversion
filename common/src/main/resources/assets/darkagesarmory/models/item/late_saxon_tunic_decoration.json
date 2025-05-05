@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "darkagesarmory:item/late_saxon_tunic_decoration",
+    "layer1": "darkagesarmory:item/late_saxon_tunic_decoration_overlay"
+  }
+}
