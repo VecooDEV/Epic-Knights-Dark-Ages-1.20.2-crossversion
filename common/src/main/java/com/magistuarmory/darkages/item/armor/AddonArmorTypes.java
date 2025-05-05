@@ -8,7 +8,6 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.tags.TagKey;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
 
 public class AddonArmorTypes
@@ -100,5 +99,7 @@ public class AddonArmorTypes
 	public static final ArmorType OATERNED_PILLBOX_CAP = new ArmorType(new ResourceLocation("darkagesarmory", "oaterned_pillbox_cap"), new ResourceLocation("darkagesarmory:pillbox_cap"), ARMOR_CONFIG.oaternedPillboxCap.toughness, 0.0f, new Integer[] { 0, 0, 0, ARMOR_CONFIG.oaternedPillboxCap.helmetDurability }, new Integer[] { 0, 0, 0, ARMOR_CONFIG.oaternedPillboxCap.helmetDefense }, 9, SoundEvents.ARMOR_EQUIP_LEATHER, ARMOR_CONFIG.oaternedPillboxCap.enabled, () -> Ingredient.of(TagKey.create(Registries.ITEM, new ResourceLocation("magistuarmory:woolen_fabric"))));
 
 	public static final ArmorType FUR_PILLBOX_CAP = new ArmorType(new ResourceLocation("darkagesarmory", "fur_pillbox_cap"), new ResourceLocation("darkagesarmory:pillbox_cap"), ARMOR_CONFIG.furPillboxCap.toughness, 0.0f, new Integer[] { 0, 0, 0, ARMOR_CONFIG.furPillboxCap.helmetDurability }, new Integer[] { 0, 0, 0, ARMOR_CONFIG.furPillboxCap.helmetDefense }, 9, SoundEvents.ARMOR_EQUIP_LEATHER, ARMOR_CONFIG.furPillboxCap.enabled, () -> Ingredient.of(TagKey.create(Registries.ITEM, new ResourceLocation("magistuarmory:woolen_fabric"))));
+
+	public static final ArmorType WININGAS = new ArmorType(new ResourceLocation("darkagesarmory", "winingas"), new ResourceLocation("darkagesarmory:winingas"), ARMOR_CONFIG.winingas.toughness, 0.0f, new Integer[] { 0, ARMOR_CONFIG.winingas.leggingsDurability, 0, 0 }, new Integer[] { 0, ARMOR_CONFIG.winingas.leggingsDefense, 0, 0 }, 9, SoundEvents.ARMOR_EQUIP_LEATHER, ARMOR_CONFIG.winingas.enabled, () -> Ingredient.of(TagKey.create(Registries.ITEM, new ResourceLocation("magistuarmory:woolen_fabric"))));
 
 }

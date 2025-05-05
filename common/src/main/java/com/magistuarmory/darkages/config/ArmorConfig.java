@@ -93,6 +93,8 @@ public class ArmorConfig implements ConfigData
     public OaternedPillboxCapConfig oaternedPillboxCap;
     @ConfigEntry.Gui.CollapsibleObject
     public FurPillboxCapConfig furPillboxCap;
+    @ConfigEntry.Gui.CollapsibleObject
+    public WiningasConfig winingas;
 
     public ArmorConfig() {
         this.balykSookLamellar = new BalykSookLamellarConfig();
@@ -138,6 +140,7 @@ public class ArmorConfig implements ConfigData
         this.pillboxCap = new PillboxCapConfig();
         this.oaternedPillboxCap = new OaternedPillboxCapConfig();
         this.furPillboxCap = new FurPillboxCapConfig();
+        this.winingas = new WiningasConfig();
     }
 
     public static class BalykSookLamellarConfig
@@ -948,6 +951,24 @@ public class ArmorConfig implements ConfigData
             this.toughness = 0.00f;
             this.helmetDurability = 100;
             this.helmetDefense = 1;
+        }
+    }
+    public static class WiningasConfig
+    {
+        @ConfigEntry.Gui.RequiresRestart
+        public boolean enabled;
+        @ConfigEntry.Gui.RequiresRestart
+        public float toughness;
+        @ConfigEntry.Gui.RequiresRestart
+        public int leggingsDurability;
+        @ConfigEntry.Gui.RequiresRestart
+        public int leggingsDefense;
+
+        public WiningasConfig() {
+            this.enabled = true;
+            this.toughness = 0.00f;
+            this.leggingsDurability = 100;
+            this.leggingsDefense = 1;
         }
     }
 }
