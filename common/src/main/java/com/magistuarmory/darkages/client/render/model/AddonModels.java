@@ -49,7 +49,7 @@ public class AddonModels extends ModModelsProvider
 	public static final LayerDefinition TUNIC_MODEL = TunicModel.createLayer();
 	public static final LayerDefinition BOAR_MODEL = BoarModel.createLayer();
 	public static final LayerDefinition COMMON_WALLET_MODEL = CommonWalletModel.createLayer();
-	public static final LayerDefinition CLOAK_MODEL = CloakModel.createLayer();
+	public static final LayerDefinition EARLY_CLOAK_MODEL = EarlyCloakModel.createLayer();
 	public static final LayerDefinition PILE_WOVEN_CLOAK_MODEL = PileWovenCloakModel.createLayer();
 	public static final LayerDefinition HEDEBY_BAG_MODEL = HedebyBagModel.createLayer();
 	public static final LayerDefinition MAILLE_AVENTAIL_MODEL = MailleAventailModel.createLayer();
@@ -59,11 +59,11 @@ public class AddonModels extends ModModelsProvider
 	public static final ModelLayerLocation BIRKA_TUNIC_LOCATION = INSTANCE.addDecorationModel("birka_tunic", () -> TUNIC_MODEL);
 	public static final ModelLayerLocation EARLY_TUNIC_LOCATION = INSTANCE.addDecorationModel("early_tunic", () -> TUNIC_MODEL);
 	public static final ModelLayerLocation KLAPPENROCK_TUNIC_LOCATION = INSTANCE.addDecorationModel("klappenrock_tunic", () -> TUNIC_MODEL);
-	public static final ModelLayerLocation _SAXON_TUNIC_LOCATION = INSTANCE.addDecorationModel("saxon_tunic", () -> TUNIC_MODEL);
+	public static final ModelLayerLocation SAXON_TUNIC_LOCATION = INSTANCE.addDecorationModel("saxon_tunic", () -> TUNIC_MODEL);
 	public static final ModelLayerLocation LATE_SAXON_TUNIC_LOCATION = INSTANCE.addDecorationModel("late_saxon_tunic", () -> TUNIC_MODEL);
 	public static final ModelLayerLocation BOAR_LOCATION = INSTANCE.addDecorationModel("boar", () -> BOAR_MODEL);
 	public static final ModelLayerLocation COMMON_WALLET_LOCATION = INSTANCE.addDecorationModel("common_wallet", () -> COMMON_WALLET_MODEL);
-	public static final ModelLayerLocation EARLY_CLOAK_LOCATION = INSTANCE.addDecorationModel("early_cloak", () -> CLOAK_MODEL);
+	public static final ModelLayerLocation EARLY_CLOAK_LOCATION = INSTANCE.addDecorationModel("early_cloak", () -> EARLY_CLOAK_MODEL);
 	public static final ModelLayerLocation PILE_WOVEN_CLOAK_LOCATION = INSTANCE.addDecorationModel("pile_woven_cloak", () -> PILE_WOVEN_CLOAK_MODEL);
 	public static final ModelLayerLocation HEDEBY_BAG_LOCATION = INSTANCE.addDecorationModel("hedeby_bag", () -> HEDEBY_BAG_MODEL);
 	public static final ModelLayerLocation MAILLE_AVENTAIL_LOCATION = INSTANCE.addDecorationModel("maille_aventail", () -> MAILLE_AVENTAIL_MODEL);

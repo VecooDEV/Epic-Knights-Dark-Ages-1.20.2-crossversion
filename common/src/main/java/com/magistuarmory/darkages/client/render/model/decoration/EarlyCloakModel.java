@@ -5,7 +5,7 @@ import net.minecraft.client.model.geom.builders.*;
 import net.minecraft.client.model.geom.builders.CubeListBuilder;
 
 
-public class CloakModel {
+public class EarlyCloakModel {
 
 	public static LayerDefinition createLayer() {
 		MeshDefinition meshdefinition = new MeshDefinition();
