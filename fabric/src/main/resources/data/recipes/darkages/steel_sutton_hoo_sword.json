@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " c ",
+    "dad",
+    "dbd"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:iron_ingots"
+    },
+    "b": {
+      "tag": "magistuarmory:hilts"
+    },
+    "c": {
+      "tag": "magistuarmory:small_plates/iron"
+    },
+    "d": {
+      "tag": "c:gold_nuggets"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:steel_sutton_hoo_sword",
+    "count": 1
+  }
+}

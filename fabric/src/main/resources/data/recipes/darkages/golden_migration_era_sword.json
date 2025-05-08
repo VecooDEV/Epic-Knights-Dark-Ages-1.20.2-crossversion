@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " a ",
+    "cac",
+    "cbc"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:iron_plates"
+    },
+    "b": {
+      "tag": "magistuarmory:hilts"
+    },
+    "c": {
+      "tag": "c:gold_nuggets"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:golden_migration_era_sword",
+    "count": 1
+  }
+}

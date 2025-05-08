@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " a ",
+    " b ",
+    "dcd"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:iron_nuggets"
+    },
+    "b": {
+      "tag": "c:iron_ingots"
+    },
+    "c": {
+      "tag": "magistuarmory:hilts"
+    },
+    "d": {
+      "tag": "c:gold_nuggets"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:steel_scramasax",
+    "count": 1
+  }
+}
