@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "tag": "magistuarmory:chainmails/iron"
+    },
+    "b": {
+      "tag": "c:gold_nuggets"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:rich_byrnie_chestplate",
+    "count": 1
+  }
+}

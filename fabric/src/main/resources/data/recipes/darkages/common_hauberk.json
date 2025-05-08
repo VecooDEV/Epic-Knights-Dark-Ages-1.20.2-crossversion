@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "a a",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "tag": "magistuarmory:chainmails/iron"
+    },
+    "b": {
+      "tag": "magistuarmory:rings/iron"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:common_hauberk",
+    "count": 1
+  }
+}

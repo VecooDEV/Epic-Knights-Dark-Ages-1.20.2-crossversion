@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "b b",
+    "bbb",
+    "bab"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:nuggets/gold"
+    },
+    "b": {
+      "tag": "magistuarmory:lamellar_rows/iron"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:balyk_sook_lamellar_chestplate",
+    "count": 1
+  }
+}

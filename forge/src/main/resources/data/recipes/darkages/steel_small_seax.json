@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " c ",
+    " a ",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:plates/iron"
+    },
+    "b": {
+      "tag": "magistuarmory:hilts"
+    },
+    "c": {
+      "tag": "magistuarmory:small_plates/iron"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:steel_small_seax",
+    "count": 1
+  }
+}

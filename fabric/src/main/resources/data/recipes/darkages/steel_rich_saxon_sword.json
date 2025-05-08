@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " b ",
+    " c ",
+    "ada"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:gold_ingots"
+    },
+    "b": {
+      "tag": "c:iron_plates"
+    },
+    "c": {
+      "tag": "c:iron_ingots"
+    },
+    "d": {
+      "tag": "magistuarmory:hilts"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:steel_rich_saxon_sword",
+    "count": 1
+  }
+}

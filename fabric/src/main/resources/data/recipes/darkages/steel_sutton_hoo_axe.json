@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aa ",
+    " b ",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "tag": "c:iron_ingots"
+    },
+    "b": {
+      "tag": "magistuarmory:hilts"
+    },
+    "c": {
+      "tag": "c:wooden_rods"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:steel_sutton_hoo_axe",
+    "count": 1
+  }
+}
