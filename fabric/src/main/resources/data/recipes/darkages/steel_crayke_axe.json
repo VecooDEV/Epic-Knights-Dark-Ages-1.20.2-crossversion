@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aa ",
+    "ab ",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "tag": "c:iron_plates"
+    },
+    "b": {
+      "tag": "magistuarmory:hilts"
+    },
+    "c": {
+      "tag": "c:wooden_rods"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:steel_crayke_axe",
+    "count": 1
+  }
+}

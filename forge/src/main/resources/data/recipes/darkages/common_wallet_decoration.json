@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " a ",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:leather"
+    },
+    "b": {
+      "tag": "magistuarmory:small_plates/iron"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:common_wallet_decoration",
+    "count": 1
+  }
+}

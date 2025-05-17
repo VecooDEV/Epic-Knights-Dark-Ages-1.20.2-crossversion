@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aa ",
+    "ac ",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:plates/iron"
+    },
+    "b": {
+      "tag": "magistuarmory:poles"
+    },
+    "c": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:steel_byzantine_axe",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ab ",
+    "cd ",
+    "   "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:red_dye"
+    },
+    "b": {
+      "tag": "c:iron_plates"
+    },
+    "c": {
+      "tag": "magistuarmory:poles"
+    },
+    "d": {
+      "item": "minecraft:blue_dye"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:steel_decorated_spear",
+    "count": 1
+  }
+}

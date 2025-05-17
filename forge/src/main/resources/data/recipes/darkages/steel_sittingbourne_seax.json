@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " a ",
+    " bd",
+    " cd"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:nuggets/iron"
+    },
+    "b": {
+      "tag": "forge:plates/iron"
+    },
+    "c": {
+      "tag": "magistuarmory:hilts"
+    },
+    "d": {
+      "tag": "forge:nuggets/gold"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:steel_sittingbourne_seax",
+    "count": 1
+  }
+}
