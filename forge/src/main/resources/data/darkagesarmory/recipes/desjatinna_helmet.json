@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aba",
+    " b ",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:plates/steel"
+    },
+    "b": {
+      "item": "magistuarmory:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:desjatinna_helmet",
+    "count": 1
+  }
+}

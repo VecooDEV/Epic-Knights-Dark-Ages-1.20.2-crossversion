@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bab",
+    "a a",
+    "   "
+  ],
+  "key": {
+    "a": {
+      "tag": "c:plates/steel"
+    },
+    "b": {
+      "tag": "c:gold_nuggets"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:benty_grange_helmet",
+    "count": 1
+  }
+}

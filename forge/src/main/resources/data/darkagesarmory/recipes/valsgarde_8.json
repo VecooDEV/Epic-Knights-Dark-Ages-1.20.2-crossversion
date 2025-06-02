@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aba",
+    "bbb",
+    "ccc"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:plates/steel"
+    },
+    "b": {
+      "tag": "forge:nuggets/gold"
+    },
+    "c": {
+      "item": "magistuarmory:steel_chainmail"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:valsgarde_8",
+    "count": 1
+  }
+}

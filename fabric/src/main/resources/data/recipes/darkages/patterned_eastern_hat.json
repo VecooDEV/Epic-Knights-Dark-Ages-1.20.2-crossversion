@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "cac",
+    "bbb",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:plates/steel"
+    },
+    "b": {
+      "item": "magistuarmory:steel_ingot"
+    },
+    "c": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:patterned_eastern_hat",
+    "count": 1
+  }
+}

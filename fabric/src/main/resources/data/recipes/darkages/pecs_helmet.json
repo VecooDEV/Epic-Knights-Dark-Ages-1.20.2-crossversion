@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "cbc",
+    "aca",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:plates/steel"
+    },
+    "b": {
+      "tag": "c:gold_nuggets"
+    },
+    "c": {
+      "item": "magistuarmory:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:pecs_helmet",
+    "count": 1
+  }
+}

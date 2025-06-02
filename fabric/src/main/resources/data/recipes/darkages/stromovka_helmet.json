@@ -1,20 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "a a",
     "aba",
-    "aaa"
+    "bbb",
+    "a a"
   ],
   "key": {
     "a": {
-      "tag": "magistuarmory:woolen_fabrics"
+      "tag": "c:plates/steel"
     },
     "b": {
-      "item": "minecraft:white_dye"
+      "item": "magistuarmory:steel_ingot"
     }
   },
   "result": {
-    "item": "darkagesarmory:early_tunic_decoration",
+    "item": "darkagesarmory:stromovka_helmet",
     "count": 1
   }
 }

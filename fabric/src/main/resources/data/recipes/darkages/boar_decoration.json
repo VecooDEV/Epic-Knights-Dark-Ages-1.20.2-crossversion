@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " bb",
+    "bab"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:plates/steel"
+    },
+    "b": {
+      "item": "magistuarmory:steel_nugget"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:boar_decoration",
+    "count": 1
+  }
+}

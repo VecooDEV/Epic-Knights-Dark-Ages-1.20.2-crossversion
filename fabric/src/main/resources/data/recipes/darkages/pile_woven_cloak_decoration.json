@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " aa",
+    "aaa",
+    "  a"
+  ],
+  "key": {
+    "a": {
+      "tag": "magistuarmory:woolen_fabrics"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:pile_woven_cloak_decoration",
+    "count": 1
+  }
+}

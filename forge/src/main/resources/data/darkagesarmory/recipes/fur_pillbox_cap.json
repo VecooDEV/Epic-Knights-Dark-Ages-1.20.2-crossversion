@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "aaa",
+    "b b"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:leather"
+    },
+    "b": {
+      "item": "magistuarmory:leather_strip"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:fur_pillbox_cap",
+    "count": 1
+  }
+}
