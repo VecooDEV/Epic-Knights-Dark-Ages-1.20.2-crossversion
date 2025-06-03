@@ -2,22 +2,25 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     " c ",
-    " a ",
-    " b "
+    "dad",
+    "dbd"
   ],
   "key": {
     "a": {
-      "tag": "forge:plates/iron"
+      "tag": "forge:ingots/steel"
     },
     "b": {
       "tag": "magistuarmory:hilts"
     },
     "c": {
-      "tag": "magistuarmory:small_plates/iron"
+      "tag": "magistuarmory:small_plates/steel"
+    },
+    "d": {
+      "tag": "forge:nuggets/gold"
     }
   },
   "result": {
-    "item": "darkagesarmory:steel_viking_sword",
+    "item": "darkagesarmory:steel_sutton_hoo_sword",
     "count": 1
   }
 }

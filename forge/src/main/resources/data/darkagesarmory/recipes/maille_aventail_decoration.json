@@ -1,20 +1,20 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "   ",
-    " a ",
-    " b "
+    "aaa",
+    "b b",
+    "   "
   ],
   "key": {
     "a": {
       "item": "minecraft:leather"
     },
     "b": {
-      "tag": "magistuarmory:small_plates/iron"
+      "tag": "magistuarmory:chainmails/steel"
     }
   },
   "result": {
-    "item": "darkagesarmory:common_wallet_decoration",
+    "item": "darkagesarmory:maille_aventail_decoration",
     "count": 1
   }
 }

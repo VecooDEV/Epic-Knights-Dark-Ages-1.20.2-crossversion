@@ -2,22 +2,22 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     " a ",
-    " b ",
-    " c "
+    "bab",
+    "bcb"
   ],
   "key": {
     "a": {
-      "tag": "forge:nuggets/iron"
+      "tag": "forge:plates/steel"
     },
     "b": {
-      "tag": "forge:ingots/iron"
+      "tag": "forge:nuggets/bronze"
     },
     "c": {
       "tag": "magistuarmory:hilts"
     }
   },
   "result": {
-    "item": "darkagesarmory:steel_langseax",
+    "item": "darkagesarmory:steel_jarls_sword",
     "count": 1
   }
 }

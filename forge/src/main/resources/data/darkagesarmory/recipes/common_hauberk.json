@@ -2,19 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "a a",
-    "aaa",
-    "aba"
+    "aba",
+    "aaa"
   ],
   "key": {
     "a": {
-      "tag": "magistuarmory:chainmails/iron"
+      "tag": "magistuarmory:chainmails/steel"
     },
     "b": {
-      "tag": "forge:nuggets/gold"
+      "tag": "magistuarmory:rings/steel"
     }
   },
   "result": {
-    "item": "darkagesarmory:rich_byrnie_chestplate",
+    "item": "darkagesarmory:common_hauberk",
     "count": 1
   }
 }

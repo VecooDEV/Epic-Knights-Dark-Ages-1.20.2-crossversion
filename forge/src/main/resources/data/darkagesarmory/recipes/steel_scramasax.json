@@ -1,23 +1,26 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
+    " a ",
     " b ",
-    " b ",
-    "aca"
+    "dcd"
   ],
   "key": {
     "a": {
-      "tag": "forge:ingots/gold"
+      "tag": "forge:nuggets/steel"
     },
     "b": {
-      "tag": "forge:ingots/iron"
+      "tag": "forge:ingots/steel"
     },
     "c": {
       "tag": "magistuarmory:hilts"
+    },
+    "d": {
+      "tag": "forge:nuggets/gold"
     }
   },
   "result": {
-    "item": "darkagesarmory:steel_rich_nordic_sword",
+    "item": "darkagesarmory:steel_scramasax",
     "count": 1
   }
 }

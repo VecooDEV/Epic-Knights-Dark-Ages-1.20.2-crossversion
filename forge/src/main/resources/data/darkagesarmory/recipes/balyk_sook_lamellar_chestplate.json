@@ -7,14 +7,14 @@
   ],
   "key": {
     "a": {
-      "tag": "forge:nuggets/iron"
+      "tag": "forge:nuggets/gold"
     },
     "b": {
-      "tag": "magistuarmory:chainmails/iron"
+      "tag": "magistuarmory:lamellar_rows/steel"
     }
   },
   "result": {
-    "item": "darkagesarmory:byrnie_chestplate",
+    "item": "darkagesarmory:balyk_sook_lamellar_chestplate",
     "count": 1
   }
 }

@@ -7,10 +7,10 @@
   ],
   "key": {
     "a": {
-      "tag": "c:iron_nuggets"
+      "tag": "c:steel_nuggets"
     },
     "b": {
-      "tag": "c:iron_plates"
+      "tag": "c:steel_plates"
     },
     "c": {
       "tag": "magistuarmory:hilts"

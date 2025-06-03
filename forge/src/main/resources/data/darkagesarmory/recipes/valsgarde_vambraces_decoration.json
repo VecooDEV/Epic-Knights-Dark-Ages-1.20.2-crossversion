@@ -7,13 +7,13 @@
   ],
   "key": {
     "a": {
-      "tag": "magistuarmory:small_plates/iron"
+      "tag": "magistuarmory:small_plates/steel"
     },
     "b": {
       "tag": "magistuarmory:leather_strips"
     },
     "c": {
-      "tag": "magistuarmory:chainmails/iron"
+      "tag": "magistuarmory:chainmails/steel"
     }
   },
   "result": {

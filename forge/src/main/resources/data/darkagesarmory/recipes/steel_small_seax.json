@@ -1,23 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "aa ",
-    " b ",
-    " c "
+    " c ",
+    " a ",
+    " b "
   ],
   "key": {
     "a": {
-      "tag": "forge:ingots/iron"
+      "tag": "forge:plates/steel"
     },
     "b": {
       "tag": "magistuarmory:hilts"
     },
     "c": {
-      "tag": "forge:rods/wooden"
+      "tag": "magistuarmory:small_plates/steel"
     }
   },
   "result": {
-    "item": "darkagesarmory:steel_sutton_hoo_axe",
+    "item": "darkagesarmory:steel_small_seax",
     "count": 1
   }
 }

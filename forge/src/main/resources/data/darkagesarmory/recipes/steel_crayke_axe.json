@@ -1,23 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " c ",
-    " a ",
-    " b "
+    "aa ",
+    "ab ",
+    " c "
   ],
   "key": {
     "a": {
-      "tag": "forge:plates/iron"
+      "tag": "forge:plates/steel"
     },
     "b": {
       "tag": "magistuarmory:hilts"
     },
     "c": {
-      "tag": "magistuarmory:small_plates/iron"
+      "tag": "forge:rods/wooden"
     }
   },
   "result": {
-    "item": "darkagesarmory:steel_small_seax",
+    "item": "darkagesarmory:steel_crayke_axe",
     "count": 1
   }
 }
