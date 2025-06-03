@@ -1,26 +1,26 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " c ",
-    "dad",
-    "dbd"
+    " a ",
+    " bd",
+    " cd"
   ],
   "key": {
     "a": {
-      "tag": "forge:ingots/iron"
+      "tag": "forge:nuggets/steel"
     },
     "b": {
-      "tag": "magistuarmory:hilts"
+      "tag": "forge:plates/steel"
     },
     "c": {
-      "tag": "magistuarmory:small_plates/iron"
+      "tag": "magistuarmory:hilts"
     },
     "d": {
       "tag": "forge:nuggets/gold"
     }
   },
   "result": {
-    "item": "darkagesarmory:steel_sutton_hoo_sword",
+    "item": "darkagesarmory:steel_sittingbourne_seax",
     "count": 1
   }
 }

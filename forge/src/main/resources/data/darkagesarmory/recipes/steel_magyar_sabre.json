@@ -2,25 +2,22 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     " a ",
-    " bd",
-    " cd"
+    "ab ",
+    "c  "
   ],
   "key": {
     "a": {
-      "tag": "forge:nuggets/iron"
+      "tag": "forge:plates/steel"
     },
     "b": {
-      "tag": "forge:plates/iron"
+      "tag": "forge:ingots/steel"
     },
     "c": {
       "tag": "magistuarmory:hilts"
-    },
-    "d": {
-      "tag": "forge:nuggets/gold"
     }
   },
   "result": {
-    "item": "darkagesarmory:steel_sittingbourne_seax",
+    "item": "darkagesarmory:steel_magyar_sabre",
     "count": 1
   }
 }

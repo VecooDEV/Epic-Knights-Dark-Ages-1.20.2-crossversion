@@ -7,10 +7,10 @@
   ],
   "key": {
     "a": {
-      "tag": "forge:nuggets/iron"
+      "tag": "forge:nuggets/steel"
     },
     "b": {
-      "tag": "forge:ingots/iron"
+      "tag": "forge:ingots/steel"
     },
     "c": {
       "tag": "magistuarmory:poles"

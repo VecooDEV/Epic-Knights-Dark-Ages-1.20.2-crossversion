@@ -1,26 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
+    " c ",
     " a ",
-    " b ",
-    "dcd"
+    " b "
   ],
   "key": {
     "a": {
-      "tag": "forge:nuggets/iron"
+      "tag": "forge:plates/steel"
     },
     "b": {
-      "tag": "forge:ingots/iron"
-    },
-    "c": {
       "tag": "magistuarmory:hilts"
     },
-    "d": {
-      "tag": "forge:nuggets/gold"
+    "c": {
+      "tag": "magistuarmory:small_plates/steel"
     }
   },
   "result": {
-    "item": "darkagesarmory:steel_scramasax",
+    "item": "darkagesarmory:steel_viking_sword",
     "count": 1
   }
 }

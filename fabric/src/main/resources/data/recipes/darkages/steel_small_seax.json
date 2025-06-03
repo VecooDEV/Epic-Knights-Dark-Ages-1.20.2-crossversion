@@ -7,13 +7,13 @@
   ],
   "key": {
     "a": {
-      "tag": "c:iron_plates"
+      "tag": "c:steel_plates"
     },
     "b": {
       "tag": "magistuarmory:hilts"
     },
     "c": {
-      "tag": "magistuarmory:small_plates/iron"
+      "tag": "magistuarmory:small_plates/steel"
     }
   },
   "result": {

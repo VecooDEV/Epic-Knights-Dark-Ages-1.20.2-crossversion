@@ -7,10 +7,10 @@
   ],
   "key": {
     "a": {
-      "tag": "c:iron_plates"
+      "tag": "c:steel_plates"
     },
     "b": {
-      "tag": "magistuarmory:small_plates/iron"
+      "tag": "magistuarmory:small_plates/steel"
     },
     "c": {
       "tag": "magistuarmory:poles"

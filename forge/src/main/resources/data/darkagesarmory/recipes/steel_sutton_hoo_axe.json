@@ -2,12 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "aa ",
-    "ab ",
+    " b ",
     " c "
   ],
   "key": {
     "a": {
-      "tag": "forge:plates/iron"
+      "tag": "forge:ingots/steel"
     },
     "b": {
       "tag": "magistuarmory:hilts"
@@ -17,7 +17,7 @@
     }
   },
   "result": {
-    "item": "darkagesarmory:steel_crayke_axe",
+    "item": "darkagesarmory:steel_sutton_hoo_axe",
     "count": 1
   }
 }

@@ -8,7 +8,7 @@ import me.shedaniel.autoconfig.annotation.Config;
 import me.shedaniel.autoconfig.annotation.ConfigEntry;
 import me.shedaniel.autoconfig.serializer.PartitioningSerializer;
 
-@Config(name = "epicknightsaddon")
+@Config(name = "darkages")
 public class AddonConfig extends PartitioningSerializer.GlobalData
 {
     @ConfigEntry.Gui.CollapsibleObject

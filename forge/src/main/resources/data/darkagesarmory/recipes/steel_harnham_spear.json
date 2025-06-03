@@ -1,20 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "aa ",
-    "a  ",
-    "b  "
+    "ab ",
+    "ca ",
+    "   "
   ],
   "key": {
     "a": {
-      "tag": "forge:plates/iron"
+      "tag": "forge:nuggets/steel"
     },
     "b": {
+      "tag": "forge:plates/steel"
+    },
+    "c": {
       "tag": "magistuarmory:poles"
     }
   },
   "result": {
-    "item": "darkagesarmory:steel_falkoping_axe",
+    "item": "darkagesarmory:steel_harnham_spear",
     "count": 1
   }
 }

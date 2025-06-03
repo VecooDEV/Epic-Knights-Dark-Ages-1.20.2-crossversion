@@ -10,10 +10,10 @@
       "tag": "c:gold_ingots"
     },
     "b": {
-      "tag": "c:iron_plates"
+      "tag": "c:steel_plates"
     },
     "c": {
-      "tag": "c:iron_ingots"
+      "tag": "c:steel_ingots"
     },
     "d": {
       "tag": "magistuarmory:hilts"

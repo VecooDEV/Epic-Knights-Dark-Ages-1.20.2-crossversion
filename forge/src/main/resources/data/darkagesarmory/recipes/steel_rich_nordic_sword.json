@@ -1,23 +1,23 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " ab",
-    " a ",
-    " c "
+    " b ",
+    " b ",
+    "aca"
   ],
   "key": {
     "a": {
-      "tag": "forge:plates/iron"
+      "tag": "forge:ingots/gold"
     },
     "b": {
-      "tag": "forge:ingots/iron"
+      "tag": "forge:ingots/steel"
     },
     "c": {
       "tag": "magistuarmory:hilts"
     }
   },
   "result": {
-    "item": "darkagesarmory:steel_small_broadaxe",
+    "item": "darkagesarmory:steel_rich_nordic_sword",
     "count": 1
   }
 }
