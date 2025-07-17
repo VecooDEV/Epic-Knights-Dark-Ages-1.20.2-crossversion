@@ -17,9 +17,6 @@ public class AddonConfig extends PartitioningSerializer.GlobalData
     @ConfigEntry.Gui.CollapsibleObject
     public ArmorConfig armor;
 
-    @ConfigEntry.Gui.CollapsibleObject
-    public ShieldsConfig shields;
-
     public AddonConfig() {
         this.weapons = new WeaponsConfig();
         this.armor = new ArmorConfig();
