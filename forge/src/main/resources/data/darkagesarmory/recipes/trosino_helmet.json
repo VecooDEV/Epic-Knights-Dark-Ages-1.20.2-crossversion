@@ -1,16 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "aba",
-    "bab",
-    "a a"
+    "aaa",
+    "cdc",
+    "b b"
   ],
   "key": {
     "a": {
-      "tag": "forge:plates/steel"
+      "tag": "magistuarmory:lamellar_rows/steel"
     },
     "b": {
-      "item": "magistuarmory:steel_ingot"
+      "tag": "magistuarmory:leather_strips"
+    },
+    "c": {
+      "tag": "forge:ingots/steel"
+    },
+    "d": {
+      "tag": "forge:plates/steel"
     }
   },
   "result": {

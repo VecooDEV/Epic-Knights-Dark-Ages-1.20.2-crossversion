@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " a ",
+    "aba",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "tag": "c:steel_plates"
+    },
+    "b": {
+      "item": "magistuarmory:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:somme_helmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "darkagesarmory:hairy_boar_decoration"
+  },
+  "addition": {
+    "tag": "c:gold_ingots"
+  },
+  "result": {
+    "item": "darkagesarmory:gilded_hairy_boar_decoration",
+    "count": 1
+  },
+  "template": {
+    "item": "magistuarmory:gilding_template"
+  }
+}

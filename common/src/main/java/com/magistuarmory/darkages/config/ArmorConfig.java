@@ -354,7 +354,7 @@ public class ArmorConfig implements ConfigData
 
         public BandenhelmConfig() {
             this.enabled = true;
-            this.toughness = 0.60f;
+            this.toughness = 0.30f;
             this.helmetDurability = 180;
             this.helmetDefense = 2;
         }
@@ -372,7 +372,7 @@ public class ArmorConfig implements ConfigData
 
         public BentyGrangeHelmetConfig() {
             this.enabled = true;
-            this.toughness = 0.60f;
+            this.toughness = 0.30f;
             this.helmetDurability = 180;
             this.helmetDefense = 2;
         }
@@ -408,7 +408,7 @@ public class ArmorConfig implements ConfigData
 
         public BroaHelmetConfig() {
             this.enabled = true;
-            this.toughness = 0.60f;
+            this.toughness = 0.30f;
             this.helmetDurability = 180;
             this.helmetDefense = 2;
         }
@@ -426,7 +426,7 @@ public class ArmorConfig implements ConfigData
 
         public CoppergateHelmetConfig() {
             this.enabled = true;
-            this.toughness = 0.60f;
+            this.toughness = 0.30f;
             this.helmetDurability = 180;
             this.helmetDefense = 2;
         }
@@ -444,7 +444,7 @@ public class ArmorConfig implements ConfigData
 
         public DesjatinnaHelmetConfig() {
             this.enabled = true;
-            this.toughness = 0.60f;
+            this.toughness = 0.30f;
             this.helmetDurability = 180;
             this.helmetDefense = 2;
         }
@@ -462,7 +462,7 @@ public class ArmorConfig implements ConfigData
 
         public GildedDesjatinnaHelmetConfig() {
             this.enabled = true;
-            this.toughness = 0.60f;
+            this.toughness = 0.30f;
             this.helmetDurability = 180;
             this.helmetDefense = 2;
         }
@@ -480,7 +480,7 @@ public class ArmorConfig implements ConfigData
 
         public GildedTjeleHelmetConfig() {
             this.enabled = true;
-            this.toughness = 0.60f;
+            this.toughness = 0.30f;
             this.helmetDurability = 180;
             this.helmetDefense = 2;
         }
@@ -498,7 +498,7 @@ public class ArmorConfig implements ConfigData
 
         public GjermundbuHelmetConfig() {
             this.enabled = true;
-            this.toughness = 0.60f;
+            this.toughness = 0.30f;
             this.helmetDurability = 180;
             this.helmetDefense = 2;
         }
@@ -534,7 +534,7 @@ public class ArmorConfig implements ConfigData
 
         public LokrumeHelmetConfig() {
             this.enabled = true;
-            this.toughness = 0.60f;
+            this.toughness = 0.30f;
             this.helmetDurability = 180;
             this.helmetDefense = 2;
         }
@@ -570,7 +570,7 @@ public class ArmorConfig implements ConfigData
 
         public SommeHelmetConfig() {
             this.enabled = true;
-            this.toughness = 0.60f;
+            this.toughness = 0.30f;
             this.helmetDurability = 180;
             this.helmetDefense = 2;
         }
@@ -588,7 +588,7 @@ public class ArmorConfig implements ConfigData
 
         public StafforshireHelmetConfig() {
             this.enabled = true;
-            this.toughness = 0.60f;
+            this.toughness = 0.30f;
             this.helmetDurability = 180;
             this.helmetDefense = 2;
         }
@@ -606,7 +606,7 @@ public class ArmorConfig implements ConfigData
 
         public SuttonHooHelmetConfig() {
             this.enabled = true;
-            this.toughness = 0.60f;
+            this.toughness = 0.30f;
             this.helmetDurability = 180;
             this.helmetDefense = 2;
         }
@@ -624,7 +624,7 @@ public class ArmorConfig implements ConfigData
 
         public LeidenBandhelmetConfig() {
             this.enabled = true;
-            this.toughness = 0.60f;
+            this.toughness = 0.30f;
             this.helmetDurability = 180;
             this.helmetDefense = 2;
         }
@@ -642,7 +642,7 @@ public class ArmorConfig implements ConfigData
 
         public TeljeHelmetConfig() {
             this.enabled = true;
-            this.toughness = 0.60f;
+            this.toughness = 0.30f;
             this.helmetDurability = 180;
             this.helmetDefense = 2;
         }
@@ -660,7 +660,7 @@ public class ArmorConfig implements ConfigData
 
         public UltunaHelmetConfig() {
             this.enabled = true;
-            this.toughness = 0.60f;
+            this.toughness = 0.30f;
             this.helmetDurability = 180;
             this.helmetDefense = 2;
         }
@@ -678,7 +678,7 @@ public class ArmorConfig implements ConfigData
 
         public Valsgarde5Config() {
             this.enabled = true;
-            this.toughness = 0.60f;
+            this.toughness = 0.50f;
             this.helmetDurability = 180;
             this.helmetDefense = 2;
         }
@@ -696,7 +696,7 @@ public class ArmorConfig implements ConfigData
 
         public Valsgarde8Config() {
             this.enabled = true;
-            this.toughness = 0.60f;
+            this.toughness = 0.40f;
             this.helmetDurability = 180;
             this.helmetDefense = 2;
         }
@@ -714,7 +714,7 @@ public class ArmorConfig implements ConfigData
 
         public Vendel1Config() {
             this.enabled = true;
-            this.toughness = 0.60f;
+            this.toughness = 0.30f;
             this.helmetDurability = 180;
             this.helmetDefense = 2;
         }
@@ -732,7 +732,7 @@ public class ArmorConfig implements ConfigData
 
         public VendelHelmetConfig() {
             this.enabled = true;
-            this.toughness = 0.60f;
+            this.toughness = 0.30f;
             this.helmetDurability = 180;
             this.helmetDefense = 2;
         }
@@ -750,7 +750,7 @@ public class ArmorConfig implements ConfigData
 
         public VerdenHelmetConfig() {
             this.enabled = true;
-            this.toughness = 0.60f;
+            this.toughness = 0.30f;
             this.helmetDurability = 180;
             this.helmetDefense = 2;
         }
@@ -768,7 +768,7 @@ public class ArmorConfig implements ConfigData
 
         public WollastonHelmetConfig() {
             this.enabled = true;
-            this.toughness = 0.60f;
+            this.toughness = 0.30f;
             this.helmetDurability = 180;
             this.helmetDefense = 2;
         }
@@ -786,7 +786,7 @@ public class ArmorConfig implements ConfigData
 
         public YarmHelmetConfig() {
             this.enabled = true;
-            this.toughness = 0.60f;
+            this.toughness = 0.30f;
             this.helmetDurability = 180;
             this.helmetDefense = 2;
         }
@@ -804,7 +804,7 @@ public class ArmorConfig implements ConfigData
 
         public StromovkaHelmetConfig() {
             this.enabled = true;
-            this.toughness = 0.60f;
+            this.toughness = 0.30f;
             this.helmetDurability = 180;
             this.helmetDefense = 2;
         }
@@ -822,7 +822,7 @@ public class ArmorConfig implements ConfigData
 
         public ZlinHelmetConfig() {
             this.enabled = true;
-            this.toughness = 0.60f;
+            this.toughness = 0.30f;
             this.helmetDurability = 180;
             this.helmetDefense = 2;
         }
@@ -840,7 +840,7 @@ public class ArmorConfig implements ConfigData
 
         public KerchHelmetConfig() {
             this.enabled = true;
-            this.toughness = 0.60f;
+            this.toughness = 0.30f;
             this.helmetDurability = 180;
             this.helmetDefense = 2;
         }
@@ -858,7 +858,7 @@ public class ArmorConfig implements ConfigData
 
         public TrosinoHelmetConfig() {
             this.enabled = true;
-            this.toughness = 0.60f;
+            this.toughness = 0.40f;
             this.helmetDurability = 180;
             this.helmetDefense = 2;
         }

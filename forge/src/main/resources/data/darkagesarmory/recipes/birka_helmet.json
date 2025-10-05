@@ -1,19 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " b ",
-    "bcb",
-    "a a"
+    "cdc",
+    "cac",
+    "aba"
   ],
   "key": {
     "a": {
-      "tag": "forge:plates/steel"
-    },
-    "b": {
       "tag": "forge:nuggets/gold"
     },
+    "b": {
+      "tag": "magistuarmory:chainmails/steel"
+    },
     "c": {
-      "item": "magistuarmory:steel_ingot"
+      "tag": "forge:ingots/steel"
+    },
+    "d": {
+      "tag": "forge:plates/steel"
     }
   },
   "result": {

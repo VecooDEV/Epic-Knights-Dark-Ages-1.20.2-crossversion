@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ccc",
+    "cac",
+    "b b"
+  ],
+  "key": {
+    "a": {
+      "tag": "magistuarmory:leather_strips"
+    },
+    "b": {
+      "tag": "magistuarmory:small_plates/steel"
+    },
+    "c": {
+      "tag": "c:steel_ingots"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:leiden_bandhelmet",
+    "count": 1
+  }
+}

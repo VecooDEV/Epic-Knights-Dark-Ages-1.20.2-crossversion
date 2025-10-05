@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aaa",
+    "cac",
+    "b b"
+  ],
+  "key": {
+    "a": {
+      "tag": "magistuarmory:lamellar_rows/steel"
+    },
+    "b": {
+      "tag": "magistuarmory:leather_strips"
+    },
+    "c": {
+      "tag": "c:steel_ingots"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:kerch_helmet",
+    "count": 1
+  }
+}

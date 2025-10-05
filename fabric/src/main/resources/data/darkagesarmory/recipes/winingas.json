@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "   ",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:steel_plates"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:winingas",
+    "count": 1
+  }
+}

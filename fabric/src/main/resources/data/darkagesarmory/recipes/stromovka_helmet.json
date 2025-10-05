@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ccc",
+    "cac",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "tag": "c:steel_nuggets"
+    },
+    "b": {
+      "tag": "magistuarmory:chainmails/steel"
+    },
+    "c": {
+      "tag": "c:steel_ingots"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:stromovka_helmet",
+    "count": 1
+  }
+}

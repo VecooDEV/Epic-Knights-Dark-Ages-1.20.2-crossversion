@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "b b",
+    "aba",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:brown_dye"
+    },
+    "b": {
+      "tag": "magistuarmory:woolen_fabrics"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:brown_birka_tunic_decoration",
+    "count": 1
+  }
+}

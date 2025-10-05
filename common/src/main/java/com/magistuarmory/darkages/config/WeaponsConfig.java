@@ -271,7 +271,7 @@ public class WeaponsConfig implements ConfigData
         public GoldenMigrationEraSwordConfig() {
             this.enabled = true;
             this.baseAttackDamage = 3.50f;
-            this.baseAttackSpeed = 1.60f;
+            this.baseAttackSpeed = 1.55f;
             this.bonusAttackReach = 0.00f;
         }
     }
@@ -289,7 +289,7 @@ public class WeaponsConfig implements ConfigData
         public JarlsSwordConfig() {
             this.enabled = true;
             this.baseAttackDamage = 3.50f;
-            this.baseAttackSpeed = 1.60f;
+            this.baseAttackSpeed = 1.55f;
             this.bonusAttackReach = 0.00f;
         }
     }
@@ -307,7 +307,7 @@ public class WeaponsConfig implements ConfigData
         public LangseaxConfig() {
             this.enabled = true;
             this.baseAttackDamage = 3.50f;
-            this.baseAttackSpeed = 1.60f;
+            this.baseAttackSpeed = 1.55f;
             this.bonusAttackReach = 0.00f;
         }
     }
@@ -325,7 +325,7 @@ public class WeaponsConfig implements ConfigData
         public MagyarSabreConfig() {
             this.enabled = true;
             this.baseAttackDamage = 3.50f;
-            this.baseAttackSpeed = 1.60f;
+            this.baseAttackSpeed = 1.55f;
             this.bonusAttackReach = 0.00f;
         }
     }
@@ -343,7 +343,7 @@ public class WeaponsConfig implements ConfigData
         public RichNordicSwordConfig() {
             this.enabled = true;
             this.baseAttackDamage = 3.50f;
-            this.baseAttackSpeed = 1.60f;
+            this.baseAttackSpeed = 1.55f;
             this.bonusAttackReach = 0.00f;
         }
     }
@@ -361,7 +361,7 @@ public class WeaponsConfig implements ConfigData
         public RichSaxonSwordConfig() {
             this.enabled = true;
             this.baseAttackDamage = 3.50f;
-            this.baseAttackSpeed = 1.60f;
+            this.baseAttackSpeed = 1.55f;
             this.bonusAttackReach = 0.00f;
         }
     }
@@ -379,7 +379,7 @@ public class WeaponsConfig implements ConfigData
         public RunicSwordConfig() {
             this.enabled = true;
             this.baseAttackDamage = 3.50f;
-            this.baseAttackSpeed = 1.60f;
+            this.baseAttackSpeed = 1.55f;
             this.bonusAttackReach = 0.00f;
         }
     }
@@ -396,8 +396,8 @@ public class WeaponsConfig implements ConfigData
         
         public ScramasaxConfig() {
             this.enabled = true;
-            this.baseAttackDamage = 3.50f;
-            this.baseAttackSpeed = 1.60f;
+            this.baseAttackDamage = 3.10f;
+            this.baseAttackSpeed = 1.65f;
             this.bonusAttackReach = 0.00f;
         }
     }
@@ -414,8 +414,8 @@ public class WeaponsConfig implements ConfigData
         
         public SittingbourneSeaxConfig() {
             this.enabled = true;
-            this.baseAttackDamage = 3.50f;
-            this.baseAttackSpeed = 1.60f;
+            this.baseAttackDamage = 2.8f;
+            this.baseAttackSpeed = 1.7f;
             this.bonusAttackReach = 0.00f;
         }
     }
@@ -432,8 +432,8 @@ public class WeaponsConfig implements ConfigData
         
         public SmallSeaxConfig() {
             this.enabled = true;
-            this.baseAttackDamage = 3.50f;
-            this.baseAttackSpeed = 1.60f;
+            this.baseAttackDamage = 3.10f;
+            this.baseAttackSpeed = 1.65f;
             this.bonusAttackReach = 0.00f;
         }
     }
@@ -451,7 +451,7 @@ public class WeaponsConfig implements ConfigData
         public SuttonHooSwordConfig() {
             this.enabled = true;
             this.baseAttackDamage = 3.50f;
-            this.baseAttackSpeed = 1.60f;
+            this.baseAttackSpeed = 1.55f;
             this.bonusAttackReach = 0.00f;
         }
     }
@@ -469,7 +469,7 @@ public class WeaponsConfig implements ConfigData
         public VikingSwordConfig() {
             this.enabled = true;
             this.baseAttackDamage = 3.50f;
-            this.baseAttackSpeed = 1.60f;
+            this.baseAttackSpeed = 1.55f;
             this.bonusAttackReach = 0.00f;
         }
     }

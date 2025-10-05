@@ -7,10 +7,10 @@ license = "MIT"
 modId = "darkagesarmory"
 version = "${version}"
 displayName = "Epic Knights: Dark Ages"
-authors = ["Magistu", "SuperSus890", "Desperate_bork", "StaxiHD", "Skydog"]
+authors = ["Magistu", "SuperSus890", "Vecoo", "Desperate_bork", "StaxiHD", "Skydog"]
 credits = []
 description = '''
-Adds equipment of the Dark Ages
+Adds equipment from the Dark Ages
 '''
 
 [[dependencies.darkagesarmory]]

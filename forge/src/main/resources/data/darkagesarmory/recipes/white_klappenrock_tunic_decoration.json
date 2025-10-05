@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "a b",
+    "bab",
+    "bba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:white_dye"
+    },
+    "b": {
+      "tag": "magistuarmory:woolen_fabrics"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:white_klappenrock_tunic_decoration",
+    "count": 1
+  }
+}

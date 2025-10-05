@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "cbb",
+    "bbb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:red_dye"
+    },
+    "b": {
+      "tag": "magistuarmory:woolen_fabrics"
+    },
+    "c": {
+      "tag": "c:gold_nuggets"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:red_prachtmantel_decoration",
+    "count": 1
+  }
+}

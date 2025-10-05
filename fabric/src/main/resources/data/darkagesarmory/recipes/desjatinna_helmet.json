@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bbb",
+    "bab",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:steel_nuggets"
+    },
+    "b": {
+      "tag": "c:steel_ingots"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:desjatinna_helmet",
+    "count": 1
+  }
+}

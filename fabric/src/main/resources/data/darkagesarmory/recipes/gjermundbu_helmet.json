@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aba",
+    "a a",
+    "   "
+  ],
+  "key": {
+    "a": {
+      "tag": "c:steel_plates"
+    },
+    "b": {
+      "item": "magistuarmory:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:gjermundbu_helmet",
+    "count": 1
+  }
+}

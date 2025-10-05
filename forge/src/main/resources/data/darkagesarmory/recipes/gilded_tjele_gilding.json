@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": {
+    "item": "darkagesarmory:telje"
+  },
+  "addition": {
+    "tag": "forge:ingots/gold"
+  },
+  "result": {
+    "item": "darkagesarmory:gilded_tjele",
+    "count": 1
+  },
+  "template": {
+    "item": "magistuarmory:gilding_template"
+  }
+}

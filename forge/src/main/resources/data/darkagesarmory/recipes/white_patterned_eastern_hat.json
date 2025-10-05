@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aaa",
+    "bbb",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "tag": "magistuarmory:woolen_fabrics"
+    },
+    "b": {
+      "item": "minecraft:white_dye"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:white_patterned_eastern_hat",
+    "count": 1
+  }
+}

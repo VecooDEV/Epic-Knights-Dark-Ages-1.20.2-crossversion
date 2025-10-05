@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " a ",
+    " b ",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:black_dye"
+    },
+    "b": {
+      "tag": "magistuarmory:woolen_fabrics"
+    },
+    "c": {
+      "item": "darkagesarmory:boar_decoration"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:hairy_boar_decoration",
+    "count": 1
+  }
+}

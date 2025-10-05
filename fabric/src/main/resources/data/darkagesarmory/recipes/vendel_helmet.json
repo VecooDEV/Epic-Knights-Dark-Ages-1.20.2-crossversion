@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aaa",
+    "bbb",
+    "cac"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:gold_nuggets"
+    },
+    "b": {
+      "tag": "c:steel_plates"
+    },
+    "c": {
+      "tag": "c:steel_ingots"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:vendel_helmet",
+    "count": 1
+  }
+}

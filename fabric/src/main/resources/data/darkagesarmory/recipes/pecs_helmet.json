@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " a ",
+    "bcb",
+    "b b"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:gold_nuggets"
+    },
+    "b": {
+      "tag": "c:steel_ingots"
+    },
+    "c": {
+      "tag": "c:steel_plates"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:pecs_helmet",
+    "count": 1
+  }
+}

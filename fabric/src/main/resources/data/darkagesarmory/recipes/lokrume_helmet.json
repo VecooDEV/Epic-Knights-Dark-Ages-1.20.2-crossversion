@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ccc",
+    "cbc",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "tag": "magistuarmory:small_plates/steel"
+    },
+    "b": {
+      "tag": "c:steel_nuggets"
+    },
+    "c": {
+      "tag": "c:steel_ingots"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:lokrume_helmet",
+    "count": 1
+  }
+}

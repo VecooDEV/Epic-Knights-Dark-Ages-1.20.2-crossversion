@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "bcb",
+    "bbb",
+    "bab"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:iron_nuggets"
+    },
+    "b": {
+      "item": "magistuarmory:woolen_fabric"
+    },
+    "c": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:red_rich_eastern_caftan",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "cbb",
+    "bbb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:yellow_dye"
+    },
+    "b": {
+      "tag": "magistuarmory:woolen_fabrics"
+    },
+    "c": {
+      "tag": "forge:nuggets/gold"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:yellow_prachtmantel_decoration",
+    "count": 1
+  }
+}

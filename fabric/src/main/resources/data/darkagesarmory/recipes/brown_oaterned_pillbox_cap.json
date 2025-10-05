@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aca",
+    "bbb",
+    "   "
+  ],
+  "key": {
+    "a": {
+      "tag": "magistuarmory:woolen_fabrics"
+    },
+    "b": {
+      "item": "minecraft:brown_dye"
+    },
+    "c": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:brown_oaterned_pillbox_cap",
+    "count": 1
+  }
+}

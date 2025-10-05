@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "darkagesarmory:item/gilded_hairy_boar_decoration",
+    "layer1": "darkagesarmory:item/gilded_hairy_boar_decoration_overlay"
+  }
+}

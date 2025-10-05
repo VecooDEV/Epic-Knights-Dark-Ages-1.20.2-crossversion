@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aba",
+    "ccc",
+    "d d"
+  ],
+  "key": {
+    "a": {
+      "tag": "magistuarmory:leather_strips"
+    },
+    "b": {
+      "tag": "c:gold_nuggets"
+    },
+    "c": {
+      "tag": "c:steel_ingots"
+    },
+    "d": {
+      "tag": "c:steel_plates"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:ultuna_helmet",
+    "count": 1
+  }
+}

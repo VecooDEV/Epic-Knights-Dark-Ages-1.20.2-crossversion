@@ -31,7 +31,7 @@ public class AddonCreativeTabs
 		
 		for (RegistrySupplier<? extends Item> item : AddonItems.INSTANCE.armorItems)
 			append(ARMOR_RESOURCE_KEY, item);
-		
+
 		for (RegistrySupplier<? extends ArmorDecoration> item : AddonItems.INSTANCE.armorDecorationItems)
 			append(ARMOR_DECORATIONS_RESOURCE_KEY, item);
 

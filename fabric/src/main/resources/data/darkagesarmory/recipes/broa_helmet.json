@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "aba",
+    "bcb",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "tag": "c:steel_plates"
+    },
+    "b": {
+      "tag": "c:gold_nuggets"
+    },
+    "c": {
+      "item": "magistuarmory:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "darkagesarmory:broa_helmet",
+    "count": 1
+  }
+}
